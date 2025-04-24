@@ -1,5 +1,4 @@
-
-
+// Created by: Tula Fernando
 import java.util.Scanner;
 
 public class Main {
@@ -112,8 +111,8 @@ public class Main {
     }
     
     public static Articulo crearArticulo(Scanner sc, Articulo[] articulos) {
-        String palabra, id = "", nombre = "", marca = "";
-        int control = 0, stock = 0;
+        String id = "", nombre = "", marca = "";
+        int stock = 0;
         double precio = 0.0;
         boolean valido;
         
